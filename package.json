@@ -42,7 +42,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FormidableLabs/spectacle.git"
+    "url": "https://github.com/adaschevici/spectacle.git"
   },
   "dependencies": {
     "csstype": "^2.6.0",
