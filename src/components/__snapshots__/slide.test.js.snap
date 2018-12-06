@@ -27,14 +27,14 @@ exports[`<Slide /> should render correctly with transitions. 1`] = `
     }
   >
     <div
-      className="spectacle-slide css-1w0uyvd e1s7evq10"
+      className="spectacle-slide css-1w0uyvd e6yds240"
     >
       <Styled(div)
         align="center center"
         overviewMode={undefined}
       >
         <div
-          className="css-13fut6c e1s7evq11"
+          className="css-13fut6c e6yds241"
         >
           <Styled(div)
             className=" spectacle-content"
@@ -51,7 +51,7 @@ exports[`<Slide /> should render correctly with transitions. 1`] = `
             width={undefined}
           >
             <div
-              className=" spectacle-content css-121oawa e1s7evq12"
+              className=" spectacle-content css-121oawa e6yds242"
               height={undefined}
               style={Object {}}
               width={undefined}
@@ -89,14 +89,14 @@ exports[`<Slide /> should render correctly without transitions. 1`] = `
     }
   >
     <div
-      className="spectacle-slide css-1w0uyvd e1s7evq10"
+      className="spectacle-slide css-1w0uyvd e6yds240"
     >
       <Styled(div)
         align="center center"
         overviewMode={undefined}
       >
         <div
-          className="css-13fut6c e1s7evq11"
+          className="css-13fut6c e6yds241"
         >
           <Styled(div)
             className=" spectacle-content"
@@ -113,7 +113,7 @@ exports[`<Slide /> should render correctly without transitions. 1`] = `
             width={undefined}
           >
             <div
-              className=" spectacle-content css-121oawa e1s7evq12"
+              className=" spectacle-content css-121oawa e6yds242"
               height={undefined}
               style={Object {}}
               width={undefined}

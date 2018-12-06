@@ -17,7 +17,7 @@ exports[`<S /> should bold text when specified 1`] = `
     type="bold"
   >
     <span
-      className="css-1oz8dr5 et9fpyj0"
+      className="css-1oz8dr5 e1e5cw540"
       type="bold"
     >
       You should read this!
@@ -43,7 +43,7 @@ exports[`<S /> should italicize text when specified 1`] = `
     type="italic"
   >
     <span
-      className="css-1cx0df8 et9fpyj0"
+      className="css-1cx0df8 e1e5cw540"
       type="italic"
     >
       This text is italicized!
@@ -69,7 +69,7 @@ exports[`<S /> should underline text when specified 1`] = `
     type="strikethrough"
   >
     <span
-      className="css-1vlogow et9fpyj0"
+      className="css-1vlogow e1e5cw540"
       type="strikethrough"
     >
       Don’t read this!
@@ -95,7 +95,7 @@ exports[`<S /> should underline text when specified 2`] = `
     type="underline"
   >
     <span
-      className="css-xt7dpi et9fpyj0"
+      className="css-xt7dpi e1e5cw540"
       type="underline"
     >
       This text is underlined!

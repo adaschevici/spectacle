@@ -15,7 +15,7 @@ exports[`<TableHeaderItem /> should render correctly 1`] = `
     }
   >
     <td
-      className="css-4x5e e51bxha0"
+      className="css-4x5e e8tr7mb0"
     >
       Header Text
     </td>

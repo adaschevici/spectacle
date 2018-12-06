@@ -15,7 +15,7 @@ exports[`<BlockQuote /> should render correctly. 1`] = `
     }
   >
     <blockquote
-      className="css-1220ekt e1i8vyy20"
+      className="css-1220ekt eelg2810"
     >
       Some Quote
     </blockquote>

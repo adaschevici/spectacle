@@ -14,7 +14,7 @@ exports[`<TableRow /> should render correctly 1`] = `
     }
   >
     <tr
-      className="css-1jziecw emir1a80"
+      className="css-1jziecw e29gcm10"
     >
       <td>
         Table Row Content

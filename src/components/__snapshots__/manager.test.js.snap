@@ -61,7 +61,7 @@ exports[`<Manager /> should render correctly. 1`] = `
       }
     >
       <div
-        className="spectacle-deck css-1w702dy eaa55an0"
+        className="spectacle-deck css-1w702dy e1gqztww0"
         onClick={[Function]}
         onTouchCancel={[Function]}
         onTouchEnd={[Function]}
@@ -102,11 +102,11 @@ exports[`<Manager /> should render correctly. 1`] = `
         >
           <TransitionGroup
             childFactory={[Function]}
-            className="css-r8ywg3 eaa55an1"
+            className="css-r8ywg3 e1gqztww1"
             component="div"
           >
             <div
-              className="css-r8ywg3 eaa55an1"
+              className="css-r8ywg3 e1gqztww1"
             >
               <SlideWrapper
                 align="center center"
@@ -242,7 +242,7 @@ exports[`<Manager /> should render correctly. 1`] = `
             }
           >
             <div
-              className="css-0 e12weced4"
+              className="css-0 ep7e4014"
             >
               <div>
                 <Styled(div)
@@ -254,7 +254,7 @@ exports[`<Manager /> should render correctly. 1`] = `
                   }
                 >
                   <div
-                    className="css-ro10dn e12weced0"
+                    className="css-ro10dn ep7e4010"
                   >
                     <Styled(div)
                       styles={
@@ -268,7 +268,7 @@ exports[`<Manager /> should render correctly. 1`] = `
                       }
                     >
                       <div
-                        className="css-1la23zo e12weced1"
+                        className="css-1la23zo ep7e4011"
                       />
                     </Styled(div)>
                     <Styled(div)
@@ -283,7 +283,7 @@ exports[`<Manager /> should render correctly. 1`] = `
                       }
                     >
                       <div
-                        className="css-1yi33k2 e12weced1"
+                        className="css-1yi33k2 ep7e4011"
                       />
                     </Styled(div)>
                   </div>
@@ -305,7 +305,7 @@ exports[`<Manager /> should render correctly. 1`] = `
                   }
                 >
                   <div
-                    className="css-16u37i9 e12weced2"
+                    className="css-16u37i9 ep7e4012"
                   />
                 </Styled(div)>
                 <Styled(div)
@@ -324,7 +324,7 @@ exports[`<Manager /> should render correctly. 1`] = `
                   }
                 >
                   <div
-                    className="css-1qz1mlg e12weced2"
+                    className="css-1qz1mlg ep7e4012"
                   />
                 </Styled(div)>
               </div>
@@ -704,7 +704,7 @@ exports[`<Manager /> should render the export configuration when specified. 1`] 
       }
     >
       <div
-        className="spectacle-deck css-1w702dy eaa55an0"
+        className="spectacle-deck css-1w702dy e1gqztww0"
         onClick={[Function]}
         onTouchCancel={[Function]}
         onTouchEnd={[Function]}
@@ -741,7 +741,7 @@ exports[`<Manager /> should render the export configuration when specified. 1`] 
         >
           <Styled(div)>
             <div
-              className="css-v2kfba ei5jtoh0"
+              className="css-v2kfba e126ypnf0"
             >
               <MockSlide
                 export={true}
@@ -839,7 +839,7 @@ exports[`<Manager /> should render the overview configuration when specified. 1`
       }
     >
       <div
-        className="spectacle-deck css-1pplrs6 eaa55an0"
+        className="spectacle-deck css-1pplrs6 e1gqztww0"
         onClick={[Function]}
         onTouchCancel={[Function]}
         onTouchEnd={[Function]}
@@ -878,7 +878,7 @@ exports[`<Manager /> should render the overview configuration when specified. 1`
         >
           <Styled(div)>
             <div
-              className="css-gv2ckq euot5m50"
+              className="css-gv2ckq e1ti8h2o0"
             >
               <Styled(div)
                 index={0}
@@ -888,7 +888,7 @@ exports[`<Manager /> should render the overview configuration when specified. 1`
                 slideIndex={0}
               >
                 <div
-                  className="css-13mtebb euot5m51"
+                  className="css-13mtebb e1ti8h2o1"
                   onClick={[Function]}
                 >
                   <MockSlide
@@ -914,7 +914,7 @@ exports[`<Manager /> should render the overview configuration when specified. 1`
                 slideIndex={0}
               >
                 <div
-                  className="css-13d6elb euot5m51"
+                  className="css-13d6elb e1ti8h2o1"
                   onClick={[Function]}
                 >
                   <MockSlide
@@ -996,7 +996,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
       }
     >
       <div
-        className="spectacle-deck css-1w702dy eaa55an0"
+        className="spectacle-deck css-1w702dy e1gqztww0"
         onClick={[Function]}
         onTouchCancel={[Function]}
         onTouchEnd={[Function]}
@@ -1056,11 +1056,11 @@ exports[`<Manager /> should render with slideset slides 1`] = `
         >
           <TransitionGroup
             childFactory={[Function]}
-            className="css-r8ywg3 eaa55an1"
+            className="css-r8ywg3 e1gqztww1"
             component="div"
           >
             <div
-              className="css-r8ywg3 eaa55an1"
+              className="css-r8ywg3 e1gqztww1"
             >
               <SlideWrapper
                 align="center center"
@@ -1204,7 +1204,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
             }
           >
             <div
-              className="css-0 e12weced4"
+              className="css-0 ep7e4014"
             >
               <div>
                 <Styled(div)
@@ -1216,7 +1216,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                   }
                 >
                   <div
-                    className="css-p4obic e12weced0"
+                    className="css-p4obic ep7e4010"
                   >
                     <Styled(div)
                       styles={
@@ -1230,7 +1230,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                       }
                     >
                       <div
-                        className="css-172vklz e12weced1"
+                        className="css-172vklz ep7e4011"
                       />
                     </Styled(div)>
                     <Styled(div)
@@ -1245,7 +1245,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                       }
                     >
                       <div
-                        className="css-5id854 e12weced1"
+                        className="css-5id854 ep7e4011"
                       />
                     </Styled(div)>
                   </div>
@@ -1267,7 +1267,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                   }
                 >
                   <div
-                    className="css-1xucvt e12weced2"
+                    className="css-1xucvt ep7e4012"
                   />
                 </Styled(div)>
                 <Styled(div)
@@ -1287,7 +1287,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                   }
                 >
                   <div
-                    className="css-ci3gz3 e12weced2"
+                    className="css-ci3gz3 ep7e4012"
                   />
                 </Styled(div)>
                 <Styled(div)
@@ -1306,7 +1306,7 @@ exports[`<Manager /> should render with slideset slides 1`] = `
                   }
                 >
                   <div
-                    className="css-tyaqbb e12weced2"
+                    className="css-tyaqbb ep7e4012"
                   />
                 </Styled(div)>
               </div>

@@ -19,7 +19,7 @@ exports[`<Heading /> should render correctly. 1`] = `
     }
   >
     <h2
-      className="css-xb8aa1 e134u50i4"
+      className="css-xb8aa1 e17a5a844"
     >
       Hi There!
     </h2>
@@ -44,7 +44,7 @@ exports[`<Heading /> should render the fit configuration correctly. 1`] = `
     }
   >
     <div
-      className="css-1449yoq e134u50i0"
+      className="css-1449yoq e17a5a840"
       height={0}
     >
       <Styled(h1)
