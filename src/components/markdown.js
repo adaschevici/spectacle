@@ -2,7 +2,7 @@ import React, { createElement, Component } from 'react';
 import PropTypes from 'prop-types';
 import { getStyles } from '../utils/base';
 import marksy from 'marksy';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 
 import BlockQuote from './block-quote';
 import CodePane from './code-pane';

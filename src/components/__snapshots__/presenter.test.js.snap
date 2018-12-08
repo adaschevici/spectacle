@@ -36,17 +36,17 @@ exports[`<Presenter /> should render correctly 1`] = `
     ]
   }
 >
-  <Styled(div)>
+  <PresenterContent>
     <div
-      className="css-sv4lnp ei2qbrk2"
+      className="css-116i7oa-PresenterContent ei2qbrk2"
     >
-      <Styled(div)>
+      <HeaderContainer>
         <div
-          className="css-1r7cznp ei2qbrk6"
+          className="css-dxw8s7-HeaderContainer ei2qbrk6"
         >
-          <Styled(h2)>
+          <SlideInfo>
             <h2
-              className="css-yx1htb ei2qbrk8"
+              className="css-1s5st3u-SlideInfo ei2qbrk8"
             >
               Slide 
               2
@@ -58,35 +58,35 @@ exports[`<Presenter /> should render correctly 1`] = `
           <Time>
             <Styled(div)>
               <div
-                className="css-1is0qkf e1x29nnk1"
+                className="css-114xpcr-TimeContainer e1x29nnk1"
               >
                 <Clock>
-                  <Styled(h2)>
+                  <Clock>
                     <h2
-                      className="css-13h1vl2 e1x29nnk0"
+                      className="css-12m399c-Clock e1x29nnk0"
                     >
                       11 : 04 : 08 AM
                     </h2>
-                  </Styled(h2)>
+                  </Clock>
                 </Clock>
               </div>
-            </Styled(div)>
+            </TimeContainer>
           </Time>
         </div>
-      </Styled(div)>
-      <Styled(div)>
+      </HeaderContainer>
+      <ContentContainer>
         <div
-          className="css-10c960h ei2qbrk0"
+          className="css-1kvje8t-ContentContainer ei2qbrk0"
         >
-          <Styled(div)>
+          <PreviewPane>
             <div
-              className="css-1vkvbxb ei2qbrk3"
+              className="css-10sf8nf-PreviewPane ei2qbrk3"
             >
-              <Styled(div)
+              <PreviewCurrentSlide
                 className="spectacle-presenter-main"
               >
                 <div
-                  className="spectacle-presenter-main css-7mgt11 ei2qbrk4"
+                  className="spectacle-presenter-main css-1ywobho-PreviewCurrentSlide ei2qbrk4"
                 >
                   <Slide
                     dispatch={[Function]}
@@ -111,10 +111,10 @@ exports[`<Presenter /> should render correctly 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
-              <Styled(div)>
+              </PreviewCurrentSlide>
+              <PreviewNextSlide>
                 <div
-                  className="css-rij0dq ei2qbrk5"
+                  className="css-4nxe4y-PreviewNextSlide ei2qbrk5"
                 >
                   <Slide
                     appearOff={true}
@@ -140,18 +140,18 @@ exports[`<Presenter /> should render correctly 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
+              </PreviewNextSlide>
             </div>
-          </Styled(div)>
-          <Styled(div)>
+          </PreviewPane>
+          <Notes>
             <div
               className="css-1c94gjj e1w6ljo77"
             />
           </Styled(div)>
         </div>
-      </Styled(div)>
+      </ContentContainer>
     </div>
-  </Styled(div)>
+  </PresenterContent>
 </Presenter>
 `;
 
@@ -194,17 +194,17 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
   }
   timer={true}
 >
-  <Styled(div)>
+  <PresenterContent>
     <div
-      className="css-sv4lnp ei2qbrk2"
+      className="css-116i7oa-PresenterContent ei2qbrk2"
     >
-      <Styled(div)>
+      <HeaderContainer>
         <div
-          className="css-1r7cznp ei2qbrk6"
+          className="css-dxw8s7-HeaderContainer ei2qbrk6"
         >
-          <Styled(h2)>
+          <SlideInfo>
             <h2
-              className="css-yx1htb ei2qbrk8"
+              className="css-1s5st3u-SlideInfo ei2qbrk8"
             >
               Slide 
               2
@@ -212,61 +212,61 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
                
               3
             </h2>
-          </Styled(h2)>
+          </SlideInfo>
           <Time
             timer={true}
           >
-            <Styled(div)>
+            <TimeContainer>
               <div
-                className="css-1is0qkf e1x29nnk1"
+                className="css-114xpcr-TimeContainer e1x29nnk1"
               >
                 <Timer>
                   <div>
-                    <Styled(h2)>
+                    <Clock>
                       <h2
-                        className="css-13h1vl2 e1x29nnk0"
+                        className="css-12m399c-Clock e1x29nnk0"
                       >
                         00 : 00
                       </h2>
-                    </Styled(h2)>
-                    <Styled(div)>
+                    </Clock>
+                    <TButtonContainer>
                       <div
-                        className="css-h8auqq e1x29nnk2"
+                        className="css-1yid1zu-TButtonContainer e1x29nnk2"
                       >
-                        <Styled(button)
+                        <TSingleButton
                           onClick={[Function]}
                           start={true}
                         >
                           <button
-                            className="css-qy6vmd e1x29nnk3"
+                            className="css-1l6dw8e-TSingleButton e1x29nnk3"
                             onClick={[Function]}
                             start={true}
                           >
                             Start
                           </button>
-                        </Styled(button)>
+                        </TSingleButton>
                       </div>
-                    </Styled(div)>
+                    </TButtonContainer>
                   </div>
                 </Timer>
               </div>
-            </Styled(div)>
+            </TimeContainer>
           </Time>
         </div>
-      </Styled(div)>
-      <Styled(div)>
+      </HeaderContainer>
+      <ContentContainer>
         <div
-          className="css-10c960h ei2qbrk0"
+          className="css-1kvje8t-ContentContainer ei2qbrk0"
         >
-          <Styled(div)>
+          <PreviewPane>
             <div
-              className="css-1vkvbxb ei2qbrk3"
+              className="css-10sf8nf-PreviewPane ei2qbrk3"
             >
-              <Styled(div)
+              <PreviewCurrentSlide
                 className="spectacle-presenter-main"
               >
                 <div
-                  className="spectacle-presenter-main css-7mgt11 ei2qbrk4"
+                  className="spectacle-presenter-main css-1ywobho-PreviewCurrentSlide ei2qbrk4"
                 >
                   <Slide
                     dispatch={[Function]}
@@ -292,10 +292,10 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
-              <Styled(div)>
+              </PreviewCurrentSlide>
+              <PreviewNextSlide>
                 <div
-                  className="css-rij0dq ei2qbrk5"
+                  className="css-4nxe4y-PreviewNextSlide ei2qbrk5"
                 >
                   <Slide
                     appearOff={true}
@@ -321,12 +321,12 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
+              </PreviewNextSlide>
             </div>
-          </Styled(div)>
-          <Styled(div)>
+          </PreviewPane>
+          <Notes>
             <div
-              className="css-1c94gjj ei2qbrk7"
+              className="css-z095sm-Notes ei2qbrk7"
             >
               <div
                 dangerouslySetInnerHTML={
@@ -336,11 +336,11 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
                 }
               />
             </div>
-          </Styled(div)>
+          </Notes>
         </div>
-      </Styled(div)>
+      </ContentContainer>
     </div>
-  </Styled(div)>
+  </PresenterContent>
 </Presenter>
 `;
 
@@ -382,17 +382,17 @@ exports[`<Presenter /> should render with notes when slides have them. 1`] = `
     ]
   }
 >
-  <Styled(div)>
+  <PresenterContent>
     <div
-      className="css-sv4lnp ei2qbrk2"
+      className="css-116i7oa-PresenterContent ei2qbrk2"
     >
-      <Styled(div)>
+      <HeaderContainer>
         <div
-          className="css-1r7cznp ei2qbrk6"
+          className="css-dxw8s7-HeaderContainer ei2qbrk6"
         >
-          <Styled(h2)>
+          <SlideInfo>
             <h2
-              className="css-yx1htb ei2qbrk8"
+              className="css-1s5st3u-SlideInfo ei2qbrk8"
             >
               Slide 
               2
@@ -404,35 +404,35 @@ exports[`<Presenter /> should render with notes when slides have them. 1`] = `
           <Time>
             <Styled(div)>
               <div
-                className="css-1is0qkf e1x29nnk1"
+                className="css-114xpcr-TimeContainer e1x29nnk1"
               >
                 <Clock>
-                  <Styled(h2)>
+                  <Clock>
                     <h2
-                      className="css-13h1vl2 e1x29nnk0"
+                      className="css-12m399c-Clock e1x29nnk0"
                     >
                       11 : 04 : 08 AM
                     </h2>
-                  </Styled(h2)>
+                  </Clock>
                 </Clock>
               </div>
-            </Styled(div)>
+            </TimeContainer>
           </Time>
         </div>
-      </Styled(div)>
-      <Styled(div)>
+      </HeaderContainer>
+      <ContentContainer>
         <div
-          className="css-10c960h ei2qbrk0"
+          className="css-1kvje8t-ContentContainer ei2qbrk0"
         >
-          <Styled(div)>
+          <PreviewPane>
             <div
-              className="css-1vkvbxb ei2qbrk3"
+              className="css-10sf8nf-PreviewPane ei2qbrk3"
             >
-              <Styled(div)
+              <PreviewCurrentSlide
                 className="spectacle-presenter-main"
               >
                 <div
-                  className="spectacle-presenter-main css-7mgt11 ei2qbrk4"
+                  className="spectacle-presenter-main css-1ywobho-PreviewCurrentSlide ei2qbrk4"
                 >
                   <Slide
                     dispatch={[Function]}
@@ -458,10 +458,10 @@ exports[`<Presenter /> should render with notes when slides have them. 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
-              <Styled(div)>
+              </PreviewCurrentSlide>
+              <PreviewNextSlide>
                 <div
-                  className="css-rij0dq ei2qbrk5"
+                  className="css-4nxe4y-PreviewNextSlide ei2qbrk5"
                 >
                   <Slide
                     appearOff={true}
@@ -487,12 +487,12 @@ exports[`<Presenter /> should render with notes when slides have them. 1`] = `
                     </div>
                   </Slide>
                 </div>
-              </Styled(div)>
+              </PreviewNextSlide>
             </div>
-          </Styled(div)>
-          <Styled(div)>
+          </PreviewPane>
+          <Notes>
             <div
-              className="css-1c94gjj ei2qbrk7"
+              className="css-z095sm-Notes ei2qbrk7"
             >
               <div
                 dangerouslySetInnerHTML={
@@ -502,10 +502,10 @@ exports[`<Presenter /> should render with notes when slides have them. 1`] = `
                 }
               />
             </div>
-          </Styled(div)>
+          </Notes>
         </div>
-      </Styled(div)>
+      </ContentContainer>
     </div>
-  </Styled(div)>
+  </PresenterContent>
 </Presenter>
 `;

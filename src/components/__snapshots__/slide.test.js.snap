@@ -13,12 +13,10 @@ exports[`<Slide /> should render correctly with transitions. 1`] = `
   }
   viewerScaleMode={false}
 >
-  <Styled(div)
+  <SlideContainer
     background="#eee"
     className="spectacle-slide"
-    exportMode={undefined}
     innerRef={[Function]}
-    printMode={undefined}
     styles={
       Object {
         "base": Object {},
@@ -27,44 +25,37 @@ exports[`<Slide /> should render correctly with transitions. 1`] = `
     }
   >
     <div
-      className="spectacle-slide css-1w0uyvd e6yds240"
+      className="spectacle-slide css-j56w67-SlideContainer e6yds240"
     >
-      <Styled(div)
+      <SlideContentWrapper
         align="center center"
-        overviewMode={undefined}
       >
         <div
-          className="css-13fut6c e6yds241"
+          className="css-1y1ndpg-SlideContentWrapper e6yds241"
         >
-          <Styled(div)
+          <SlideContent
             className=" spectacle-content"
-            height={undefined}
             innerRef={[Function]}
-            margin={undefined}
-            overviewMode={undefined}
             style={Object {}}
             styles={
               Object {
                 "context": Object {},
               }
             }
-            width={undefined}
           >
             <div
-              className=" spectacle-content css-121oawa e6yds242"
-              height={undefined}
+              className=" spectacle-content css-1h5wdop-SlideContent e6yds242"
               style={Object {}}
-              width={undefined}
             >
               <div>
                 Slide Content
               </div>
             </div>
-          </Styled(div)>
+          </SlideContent>
         </div>
-      </Styled(div)>
+      </SlideContentWrapper>
     </div>
-  </Styled(div)>
+  </SlideContainer>
 </Slide>
 `;
 
@@ -75,12 +66,10 @@ exports[`<Slide /> should render correctly without transitions. 1`] = `
   style={Object {}}
   viewerScaleMode={false}
 >
-  <Styled(div)
+  <SlideContainer
     background="#eee"
     className="spectacle-slide"
-    exportMode={undefined}
     innerRef={[Function]}
-    printMode={undefined}
     styles={
       Object {
         "base": Object {},
@@ -89,43 +78,36 @@ exports[`<Slide /> should render correctly without transitions. 1`] = `
     }
   >
     <div
-      className="spectacle-slide css-1w0uyvd e6yds240"
+      className="spectacle-slide css-j56w67-SlideContainer e6yds240"
     >
-      <Styled(div)
+      <SlideContentWrapper
         align="center center"
-        overviewMode={undefined}
       >
         <div
-          className="css-13fut6c e6yds241"
+          className="css-1y1ndpg-SlideContentWrapper e6yds241"
         >
-          <Styled(div)
+          <SlideContent
             className=" spectacle-content"
-            height={undefined}
             innerRef={[Function]}
-            margin={undefined}
-            overviewMode={undefined}
             style={Object {}}
             styles={
               Object {
                 "context": Object {},
               }
             }
-            width={undefined}
           >
             <div
-              className=" spectacle-content css-121oawa e6yds242"
-              height={undefined}
+              className=" spectacle-content css-1h5wdop-SlideContent e6yds242"
               style={Object {}}
-              width={undefined}
             >
               <div>
                 Slide Content
               </div>
             </div>
-          </Styled(div)>
+          </SlideContent>
         </div>
-      </Styled(div)>
+      </SlideContentWrapper>
     </div>
-  </Styled(div)>
+  </SlideContainer>
 </Slide>
 `;

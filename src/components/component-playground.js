@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import isEmpty from 'lodash/isEmpty';
 import PropTypes from 'prop-types';
-import styled, { css } from 'react-emotion';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import { defaultCode } from '../utils/playground.default-code';
 
 import FullscreenButton from './fullscreen-button';

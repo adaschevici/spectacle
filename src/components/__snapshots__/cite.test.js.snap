@@ -15,11 +15,11 @@ exports[`<Cite /> should render correctly. 1`] = `
     }
   >
     <cite
-      className="css-1j6fsf6 e19d4ue40"
+      className="css-dcubeo-StyledCite e19d4ue40"
     >
       - 
       Someone
     </cite>
-  </Styled(cite)>
+  </StyledCite>
 </Cite>
 `;

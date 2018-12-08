@@ -40,9 +40,8 @@ class Typeface extends Component {
           {children}
         </div>
       );
-    } else {
-      return <div>{children}</div>;
     }
+    return <div>{children}</div>;
   }
 }
 

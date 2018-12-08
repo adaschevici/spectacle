@@ -4,12 +4,12 @@ exports[`<Layout /> should render correctly 1`] = `
 <Layout>
   <Styled(div)>
     <div
-      className="css-k008qs e1nmu5c30"
+      className="css-190y7nk-StyledLayout e1nmu5c30"
     >
       <div>
         Content
       </div>
     </div>
-  </Styled(div)>
+  </StyledLayout>
 </Layout>
 `;

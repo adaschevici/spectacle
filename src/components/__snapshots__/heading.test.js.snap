@@ -19,11 +19,11 @@ exports[`<Heading /> should render correctly. 1`] = `
     }
   >
     <h2
-      className="css-xb8aa1 e17a5a844"
+      className="css-1ypvzub-dynamicStyledHeaders e17a5a842"
     >
       Hi There!
     </h2>
-  </Styled(h2)>
+  </dynamicStyledHeaders>
 </Heading>
 `;
 
@@ -44,10 +44,10 @@ exports[`<Heading /> should render the fit configuration correctly. 1`] = `
     }
   >
     <div
-      className="css-1449yoq e17a5a840"
+      className="css-1re2fqt-StyledHeader e17a5a840"
       height={0}
     >
-      <Styled(h1)
+      <dynamicStyledFitHeaders
         innerRef={[Function]}
         lineHeight={1}
         scale={0}
@@ -64,8 +64,8 @@ exports[`<Heading /> should render the fit configuration correctly. 1`] = `
         >
           This Header Fits!
         </h1>
-      </Styled(h1)>
+      </dynamicStyledFitHeaders>
     </div>
-  </Styled(div)>
+  </StyledHeader>
 </Heading>
 `;

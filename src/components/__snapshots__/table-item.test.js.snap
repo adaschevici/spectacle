@@ -15,10 +15,10 @@ exports[`<TableItem /> should render correctly 1`] = `
     }
   >
     <td
-      className="css-11os9ew egqubym0"
+      className="css-tvn2aj-StyledTableItem egqubym0"
     >
       Table Item Content
     </td>
-  </Styled(td)>
+  </StyledTableItem>
 </TableItem>
 `;

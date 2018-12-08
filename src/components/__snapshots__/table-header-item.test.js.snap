@@ -15,10 +15,10 @@ exports[`<TableHeaderItem /> should render correctly 1`] = `
     }
   >
     <td
-      className="css-4x5e e8tr7mb0"
+      className="css-uaxalz-StyledTableHeaderItem e8tr7mb0"
     >
       Header Text
     </td>
-  </Styled(td)>
+  </StyledTableHeaderItem>
 </TableHeaderItem>
 `;

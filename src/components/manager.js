@@ -1,4 +1,4 @@
-/*eslint new-cap:0, max-statements:0, no-console:0*/
+/* eslint new-cap:0, max-statements:0, no-console:0 */
 /* eslint react/no-did-mount-set-state: 0 */
 
 import React, { Children, cloneElement, Component } from 'react';
@@ -12,7 +12,7 @@ import { connect } from 'react-redux';
 import { setGlobalStyle, updateFragment } from '../actions';
 import Typeface from './typeface';
 import { getSlideByIndex } from '../utils/slides';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { string as toStringStyle } from 'to-style';
 import memoize from 'lodash/memoize';
 
@@ -28,13 +28,10 @@ import Progress from './progress';
 import Controls from './controls';
 import { toggleFullscreen } from '../utils/fullscreen';
 
-let convertStyle = styles => {
-  return Object.keys(styles)
-    .map(key => {
-      return `${key} { ${toStringStyle(styles[key])}} `;
-    })
+let convertStyle = styles =>
+  Object.keys(styles)
+    .map(key => `${key} { ${toStringStyle(styles[key])}} `)
     .join('');
-};
 
 convertStyle = memoize(convertStyle);
 
@@ -222,20 +219,25 @@ export class Manager extends Component {
     if (
       (((navigator || {}).presentation || {}).receiver || {}).connectionList
     ) {
-      navigator.presentation.receiver.connectionList.then(list => {
-        list.connections.map(connection => {
-          this.presentationConnection = connection;
-          connection.addEventListener('message', event => {
-            this._goToSlide({ key: 'spectacle-slide', newValue: event.data });
+      navigator.presentation.receiver.connectionList
+        .then(list => {
+          list.connections.map(connection => {
+            this.presentationConnection = connection;
+            connection.addEventListener('message', event => {
+              this._goToSlide({ key: 'spectacle-slide', newValue: event.data });
+            });
           });
-        });
-        list.addEventListener('connectionavailable', e => {
-          this.presentationConnection = e.connection;
-          e.connection.addEventListener('message', event => {
-            this._goToSlide({ key: 'spectacle-slide', newValue: event.data });
+          list.addEventListener('connectionavailable', e => {
+            this.presentationConnection = e.connection;
+            e.connection.addEventListener('message', event => {
+              this._goToSlide({ key: 'spectacle-slide', newValue: event.data });
+            });
           });
-        });
-      });
+          return true;
+        })
+        .catch(err =>
+          console.log('The connection list failed to attach events.', err)
+        );
     }
   }
   _detachEvents() {
@@ -354,12 +356,16 @@ export class Manager extends Component {
         `${originalLocation}`
       ]);
       navigator.presentation.defaultRequest = presentationRequest;
-      presentationRequest.start().then(connection => {
-        this.presentationConnection = connection;
-        this.presentationConnection.addEventListener('message', data => {
-          this._goToSlide({ key: 'spectacle-slide', newValue: data.data });
-        });
-      });
+      presentationRequest
+        .start()
+        .then(connection => {
+          this.presentationConnection = connection;
+          this.presentationConnection.addEventListener('message', data => {
+            this._goToSlide({ key: 'spectacle-slide', newValue: data.data });
+          });
+          return true;
+        })
+        .catch(err => console.log('Failed to goToSlide', err));
     } else if (this.presentationConnection) {
       this.presentationConnection.terminate();
     }
@@ -377,9 +383,8 @@ export class Manager extends Component {
       return isTimerMode ? '?presenter&timer' : '?presenter';
     } else if (this.props.route.params.indexOf('overview') !== -1) {
       return '?overview';
-    } else {
-      return '';
     }
+    return '';
   }
   _goToSlide(e) {
     let data = null;
@@ -627,9 +632,8 @@ export class Manager extends Component {
         return false;
       }
       return true;
-    } else {
-      return true;
     }
+    return true;
   }
   _getTouchEvents() {
     const self = this;
@@ -724,9 +728,10 @@ export class Manager extends Component {
   _getSlideIndex() {
     let index = parseInt(this.props.route.slide);
     if (!Number.isFinite(index)) {
-      const foundIndex = findIndex(this.state.slideReference, reference => {
-        return this.props.route.slide === reference.id;
-      });
+      const foundIndex = findIndex(
+        this.state.slideReference,
+        reference => this.props.route.slide === reference.id
+      );
       index = foundIndex >= 0 ? foundIndex : 0;
     }
     return index;

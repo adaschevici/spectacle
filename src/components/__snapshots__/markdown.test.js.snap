@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Markdown> should render correctly when using inline code 1`] = `
-<Styled(div)
+<Container
   styles={
     Array [
       Object {},
@@ -22,5 +22,5 @@ exports[`<Markdown> should render correctly when using inline code 1`] = `
       work
     </Code>
   </Text>
-</Styled(div)>
+</Container>
 `;

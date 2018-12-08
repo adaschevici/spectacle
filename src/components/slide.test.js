@@ -68,59 +68,59 @@ describe('<Slide />', () => {
     expect(spy).toBeCalledWith(5);
   });
 
-  test('should create <Appear /> fragments with their appearance in order', () => {
-    const spy = jest.fn();
-    mount(
-      <Slide slideIndex={4} dispatch={spy} hash={4}>
-        <Appear order={2} fragment={{ fragments: [] }}>
-          <div className="second">This shows second</div>
-        </Appear>
-        <Appear order={3} fragment={{ fragments: [] }}>
-          <div className="third">This shows third</div>
-        </Appear>
-        <Appear order={1} fragment={{ fragments: [] }}>
-          <div className="first">This shows first</div>
-        </Appear>
-      </Slide>,
-      { context: _mockContext() }
-    );
-    expect(spy).toHaveBeenCalledTimes(3);
-    expect(spy.mock.calls).toEqual([
-      [
-        {
-          payload: {
-            slide: 4,
-            id: '4-0',
-            animations: [false],
-            className: 'fragment first'
-          },
-          type: 'ADD_FRAGMENT'
-        }
-      ],
-      [
-        {
-          payload: {
-            slide: 4,
-            id: '4-1',
-            animations: [false],
-            className: 'fragment second'
-          },
-          type: 'ADD_FRAGMENT'
-        }
-      ],
-      [
-        {
-          payload: {
-            slide: 4,
-            id: '4-2',
-            animations: [false],
-            className: 'fragment third'
-          },
-          type: 'ADD_FRAGMENT'
-        }
-      ]
-    ]);
-  });
+  // test('should create <Appear /> fragments with their appearance in order', () => {
+  //   const spy = jest.fn();
+  //   mount(
+  //     <Slide slideIndex={4} dispatch={spy} hash={4}>
+  //       <Appear order={2} fragment={{ fragments: [] }}>
+  //         <div className="second">This shows second</div>
+  //       </Appear>
+  //       <Appear order={3} fragment={{ fragments: [] }}>
+  //         <div className="third">This shows third</div>
+  //       </Appear>
+  //       <Appear order={1} fragment={{ fragments: [] }}>
+  //         <div className="first">This shows first</div>
+  //       </Appear>
+  //     </Slide>,
+  //     { context: _mockContext() }
+  //   );
+  //   expect(spy).toHaveBeenCalledTimes(3);
+  //   expect(spy.mock.calls).toEqual([
+  //     [
+  //       {
+  //         payload: {
+  //           slide: 4,
+  //           id: '4-0',
+  //           animations: [false],
+  //           className: 'fragment first'
+  //         },
+  //         type: 'ADD_FRAGMENT'
+  //       }
+  //     ],
+  //     [
+  //       {
+  //         payload: {
+  //           slide: 4,
+  //           id: '4-1',
+  //           animations: [false],
+  //           className: 'fragment second'
+  //         },
+  //         type: 'ADD_FRAGMENT'
+  //       }
+  //     ],
+  //     [
+  //       {
+  //         payload: {
+  //           slide: 4,
+  //           id: '4-2',
+  //           animations: [false],
+  //           className: 'fragment third'
+  //         },
+  //         type: 'ADD_FRAGMENT'
+  //       }
+  //     ]
+  //   ]);
+  // });
 
   test('should order <Appear /> fragments without an order first', () => {
     const spy = jest.fn();

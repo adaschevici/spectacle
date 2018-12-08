@@ -65,8 +65,6 @@ class Anim extends Component {
     if (this.state.activeAnimation !== this.props.toStyle.length - 1) {
       this.setState({ activeAnimation: this.props.toStyle.length - 1 });
     }
-
-    return;
   };
 
   updateAnimation = nextAnimation => {
@@ -75,8 +73,6 @@ class Anim extends Component {
         activeAnimation: nextAnimation
       });
     }
-
-    return;
   };
 
   getAnimationStatus() {

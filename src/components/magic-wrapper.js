@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { detailedDiff } from 'deep-object-diff';
 import { buildStyleMap, updateChildren } from '../utils/magic';
 import get from 'lodash/get';

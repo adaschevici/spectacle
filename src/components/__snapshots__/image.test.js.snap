@@ -28,6 +28,6 @@ exports[`<Image /> should render correctly. 1`] = `
       className="css-17as7hl e5br7ws0"
       src="foo.png"
     />
-  </Styled(img)>
+  </StyledImg>
 </Image>
 `;

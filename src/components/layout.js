@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 
 const StyledLayout = styled.div(props => [{ display: 'flex' }, props.styles]);
 

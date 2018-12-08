@@ -112,9 +112,10 @@ class SlideWrapper extends React.PureComponent {
     const { slideReference } = this.props;
     const { route } = this.context.store.getState();
     const { slide } = route;
-    const slideIndex = findIndex(slideReference, reference => {
-      return slide === String(reference.id);
-    });
+    const slideIndex = findIndex(
+      slideReference,
+      reference => slide === String(reference.id)
+    );
     return Math.max(0, slideIndex);
   }
 

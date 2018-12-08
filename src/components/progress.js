@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled, { keyframes } from 'react-emotion';
+import styled from '@emotion/styled';
+import { keyframes } from '@emotion/core';
 
 const Pacman = {
   Base: styled.div(({ styles, position }) => [styles, position]),
@@ -128,18 +129,16 @@ export default class Progress extends Component {
                 ]}
               />
             </Pacman.Base>
-            {items.map((item, i) => {
-              return (
-                <Point
-                  styles={[
-                    style.point,
-                    this.resolveProgressStyles('borderColor')
-                  ]}
-                  position={this.getPointStyle(i)}
-                  key={`presentation-progress-${i}`}
-                />
-              );
-            })}
+            {items.map((item, i) => (
+              <Point
+                styles={[
+                  style.point,
+                  this.resolveProgressStyles('borderColor')
+                ]}
+                position={this.getPointStyle(i)}
+                key={`presentation-progress-${i}`}
+              />
+            ))}
           </div>
         );
         break;

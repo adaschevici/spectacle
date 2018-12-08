@@ -18,10 +18,10 @@ exports[`<Text /> should render a <div> with text for the \`fit\` configuration.
     }
   >
     <div
-      className="css-1rapqq0 e52jbq80"
+      className="css-m0jibx-FitText e52jbq80"
       height={0}
     >
-      <Styled(span)
+      <FitTextContent
         innerRef={[Function]}
         lineHeight={1}
         scale={0}
@@ -38,9 +38,9 @@ exports[`<Text /> should render a <div> with text for the \`fit\` configuration.
         >
           Spectacle Full Size!
         </span>
-      </Styled(span)>
+      </FitTextContent>
     </div>
-  </Styled(div)>
+  </FitText>
 </Text>
 `;
 
@@ -61,10 +61,10 @@ exports[`<Text /> should render a <p> with text for the default configuration. 1
     }
   >
     <p
-      className="css-cmzp7u e52jbq82"
+      className="css-h2vpys-UnfitText e52jbq82"
     >
       Spectacle!
     </p>
-  </Styled(p)>
+  </UnfitText>
 </Text>
 `;

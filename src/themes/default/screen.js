@@ -1,4 +1,4 @@
-/*eslint-disable object-shorthand*/
+/* eslint-disable object-shorthand*/
 
 import prismLight from './prism.light';
 import prismDark from './prism.dark';

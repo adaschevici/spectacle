@@ -49,8 +49,8 @@ export const isMagicSlide = (slideReference, index) => {
   return !isUndefined(reference.magicIndex);
 };
 
-export const countSlides = children => {
-  return reduce(
+export const countSlides = children =>
+  reduce(
     Children.toArray(children),
     (count, child) => {
       count += child.props.hasSlideChildren
@@ -60,4 +60,3 @@ export const countSlides = children => {
     },
     0
   );
-};

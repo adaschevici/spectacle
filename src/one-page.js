@@ -1,7 +1,7 @@
 /**
  *  One-page loader script.
  */
-/*global Babel:false*/
+/* global Babel:false*/
 
 // Template for taking a render function and turning it into a presentation.
 const template = renderFn => `

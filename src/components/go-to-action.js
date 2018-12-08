@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { getStyles } from '../utils/base';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import isFunction from 'lodash/isFunction';
 
 const GoToActionButton = styled.button(({ styles }) => [

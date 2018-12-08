@@ -13,7 +13,7 @@ exports[`<Fullscreen /> should render correctly. 1`] = `
       isFullscreen={false}
       onClick={[Function]}
     >
-      <Styled(button)
+      <Button
         aria-label="Toggle full screen"
         className="css-12w3q3u e4v3eea0"
         onClick={[Function]}
@@ -32,8 +32,8 @@ exports[`<Fullscreen /> should render correctly. 1`] = `
             />
           </svg>
         </button>
-      </Styled(button)>
+      </Button>
     </FullscreenButton>
-  </Styled(FullscreenButton)>
+  </StyledFullscreen>
 </Fullscreen>
 `;

@@ -17,7 +17,7 @@ exports[`<CodePane /> should render correctly. 1`] = `
     "
   theme="dark"
 >
-  <Styled(div)
+  <StyledWrapper
     className=""
     styles={
       Array [
@@ -28,9 +28,9 @@ exports[`<CodePane /> should render correctly. 1`] = `
     }
   >
     <div
-      className="css-0 e1kwnk5z0"
+      className=" css-kzzjzf-StyledWrapper e1kwnk5z0"
     >
-      <Styled(Component)
+      <StyledEditor
         className="language-jsx builtin-prism-theme "
         code="
       const myButton = (
@@ -51,7 +51,7 @@ exports[`<CodePane /> should render correctly. 1`] = `
         syntaxStyles={Object {}}
       >
         <Component
-          className="language-jsx builtin-prism-theme  css-1rm1mht e1kwnk5z1"
+          className="language-jsx builtin-prism-theme  css-l9uwwt-StyledEditor e1kwnk5z1"
           code="
       const myButton = (
         <CustomButton
@@ -71,7 +71,7 @@ exports[`<CodePane /> should render correctly. 1`] = `
           syntaxStyles={Object {}}
         >
           <Editor
-            className="language-jsx builtin-prism-theme  css-1rm1mht e1kwnk5z1"
+            className="language-jsx builtin-prism-theme  css-l9uwwt-StyledEditor e1kwnk5z1"
             code="
       const myButton = (
         <CustomButton
@@ -89,7 +89,7 @@ exports[`<CodePane /> should render correctly. 1`] = `
             onKeyUp={[Function]}
           >
             <pre
-              className="prism-code language-jsx builtin-prism-theme  css-1rm1mht e1kwnk5z1"
+              className="prism-code language-jsx builtin-prism-theme  css-l9uwwt-StyledEditor e1kwnk5z1"
               contentEditable={false}
               dangerouslySetInnerHTML={
                 Object {
@@ -109,8 +109,8 @@ exports[`<CodePane /> should render correctly. 1`] = `
             />
           </Editor>
         </Component>
-      </Styled(Component)>
+      </StyledEditor>
     </div>
-  </Styled(div)>
+  </StyledWrapper>
 </CodePane>
 `;

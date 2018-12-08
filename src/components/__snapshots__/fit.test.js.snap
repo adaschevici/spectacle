@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Fit /> should render with style \`flex: 0\` 1`] = `
-<Styled(div)>
+<Fit>
   <div
-    className="css-72fd9l eiribof0"
+    className="css-md6691-Fit eiribof0"
   >
     Hello
   </div>
-</Styled(div)>
+</Fit>
 `;

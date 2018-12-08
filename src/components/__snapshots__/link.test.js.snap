@@ -21,13 +21,13 @@ exports[`<Link /> should render correctly 1`] = `
     target="_blank"
   >
     <a
-      className="css-qjaoxy e8dhd650"
+      className="css-1dj1ybs-StyledLink e8dhd650"
       href="https://www.formidable.com"
       rel="noopener noreferrer"
       target="_blank"
     >
       Formidable Labs
     </a>
-  </Styled(a)>
+  </StyledLink>
 </Link>
 `;

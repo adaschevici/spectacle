@@ -18,7 +18,7 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
   }
   type="pacman"
 >
-  <Styled(div)
+  <Container
     styles={
       Array [
         undefined,
@@ -27,10 +27,10 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
     }
   >
     <div
-      className="css-0 ep7e4014"
+      className="css-yfonvn-Container ep7e4014"
     >
       <div>
-        <Styled(div)
+        <Pacman
           position={
             Object {
               "left": "15px",
@@ -39,41 +39,47 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
           }
         >
           <div
-            className="css-tyaqbb ep7e4010"
+            className="css-1focrfm-Pacman ep7e4010"
           >
-            <Styled(div)
+            <Pacman
               styles={
                 Array [
                   undefined,
                   Object {
-                    "animation": "animation-vwhb3c 0.12s linear 10 alternate both",
+                    "animation": "_EMO_animation-wlhlzv_@keyframes animation-wlhlzv{
+  0% { transform: rotateZ(0.1deg) }
+  100% { transform: rotateZ(-30deg) }
+}_EMO_ 0.12s linear 10 alternate both",
                   },
                   null,
                 ]
               }
             >
               <div
-                className="css-1la23zo ep7e4011"
+                className="css-113afcy-Pacman ep7e4011"
               />
-            </Styled(div)>
-            <Styled(div)
+            </Pacman>
+            <Pacman
               styles={
                 Array [
                   undefined,
                   Object {
-                    "animation": "animation-1p18wsg 0.12s linear 10 alternate both",
+                    "animation": "_EMO_animation-1am87zz_@keyframes animation-1am87zz{
+  0% { transform: rotateZ(0.1deg) }
+  100% { transform: rotateZ(30deg) }
+}_EMO_ 0.12s linear 10 alternate both",
                   },
                   null,
                 ]
               }
             >
               <div
-                className="css-1yi33k2 ep7e4011"
+                className="css-1rxihoa-Pacman ep7e4011"
               />
-            </Styled(div)>
+            </Pacman>
           </div>
-        </Styled(div)>
-        <Styled(div)
+        </Pacman>
+        <Point
           key="presentation-progress-0"
           position={
             Object {
@@ -90,10 +96,10 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
           }
         >
           <div
-            className="css-1xucvt ep7e4012"
+            className="css-19l6p3g-Point ep7e4012"
           />
-        </Styled(div)>
-        <Styled(div)
+        </Point>
+        <Point
           key="presentation-progress-1"
           position={
             Object {
@@ -110,10 +116,10 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
           }
         >
           <div
-            className="css-ci3gz3 ep7e4012"
+            className="css-9jhg9j-Point ep7e4012"
           />
-        </Styled(div)>
-        <Styled(div)
+        </Point>
+        <Point
           key="presentation-progress-2"
           position={
             Object {
@@ -130,12 +136,12 @@ exports[`<Progress /> should render PacMan correctly 1`] = `
           }
         >
           <div
-            className="css-41ffu3 ep7e4012"
+            className="css-jx6o3o-Point ep7e4012"
           />
-        </Styled(div)>
+        </Point>
       </div>
     </div>
-  </Styled(div)>
+  </Container>
 </Progress>
 `;
 
@@ -177,7 +183,7 @@ exports[`<Progress /> should render the bar style correctly 1`] = `
   }
   type="bar"
 >
-  <Styled(div)
+  <Container
     styles={
       Array [
         undefined,
@@ -186,9 +192,9 @@ exports[`<Progress /> should render the bar style correctly 1`] = `
     }
   >
     <div
-      className="css-0 ep7e4014"
+      className="css-yfonvn-Container ep7e4014"
     >
-      <Styled(div)
+      <Bar
         styles={
           Array [
             undefined,
@@ -202,16 +208,16 @@ exports[`<Progress /> should render the bar style correctly 1`] = `
         }
       >
         <div
-          className="css-11ze7cv ep7e4013"
+          className="css-5m1fwp-Bar ep7e4013"
           width={
             Object {
               "width": "50%",
             }
           }
         />
-      </Styled(div)>
+      </Bar>
     </div>
-  </Styled(div)>
+  </Container>
 </Progress>
 `;
 
@@ -233,7 +239,7 @@ exports[`<Progress /> should render the number style correctly 1`] = `
   }
   type="number"
 >
-  <Styled(div)
+  <Container
     styles={
       Array [
         undefined,
@@ -242,7 +248,7 @@ exports[`<Progress /> should render the number style correctly 1`] = `
     }
   >
     <div
-      className="css-0 ep7e4014"
+      className="css-yfonvn-Container ep7e4014"
     >
       <div>
         2
@@ -250,6 +256,6 @@ exports[`<Progress /> should render the number style correctly 1`] = `
         3
       </div>
     </div>
-  </Styled(div)>
+  </Container>
 </Progress>
 `;

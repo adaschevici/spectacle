@@ -14,12 +14,12 @@ exports[`<TableRow /> should render correctly 1`] = `
     }
   >
     <tr
-      className="css-1jziecw e29gcm10"
+      className="css-1oo9fc8-StyledTableRow e29gcm10"
     >
       <td>
         Table Row Content
       </td>
     </tr>
-  </Styled(tr)>
+  </StyledTableRow>
 </TableRow>
 `;

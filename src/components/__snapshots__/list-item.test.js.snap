@@ -16,10 +16,10 @@ exports[`<ListItem /> should render correctly 1`] = `
     }
   >
     <li
-      className="css-tr63ps ext2p3b0"
+      className="css-78jrb2-StyledListItem ext2p3b0"
     >
       Dog
     </li>
-  </Styled(li)>
+  </StyledListItem>
 </ListItem>
 `;

@@ -19,13 +19,13 @@ exports[`<Code /> should render correctly. 1`] = `
     }
   >
     <code
-      className="css-10rvbm3 e1o6fp3h0"
+      className="css-a2gvnl-StyledCode e1o6fp3h0"
       dangerouslySetInnerHTML={
         Object {
           "__html": "const [a, ...b] = [1, 2, 3, 4]",
         }
       }
     />
-  </Styled(code)>
+  </StyledCode>
 </Code>
 `;

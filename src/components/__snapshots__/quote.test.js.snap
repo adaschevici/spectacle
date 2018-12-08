@@ -15,10 +15,10 @@ exports[`<Quote /> should render correctly 1`] = `
     }
   >
     <span
-      className="css-tr63ps e19tqqbp0"
+      className="css-cj587x-StyledQuote e19tqqbp0"
     >
       Hello There!
     </span>
-  </Styled(span)>
+  </StyledQuote>
 </Quote>
 `;

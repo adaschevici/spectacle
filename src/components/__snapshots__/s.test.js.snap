@@ -17,12 +17,12 @@ exports[`<S /> should bold text when specified 1`] = `
     type="bold"
   >
     <span
-      className="css-1oz8dr5 e1e5cw540"
+      className="css-1l65439-StyledS e1e5cw540"
       type="bold"
     >
       You should read this!
     </span>
-  </Styled(span)>
+  </StyledS>
 </S>
 `;
 
@@ -43,12 +43,12 @@ exports[`<S /> should italicize text when specified 1`] = `
     type="italic"
   >
     <span
-      className="css-1cx0df8 e1e5cw540"
+      className="css-vpjcch-StyledS e1e5cw540"
       type="italic"
     >
       This text is italicized!
     </span>
-  </Styled(span)>
+  </StyledS>
 </S>
 `;
 
@@ -69,12 +69,12 @@ exports[`<S /> should underline text when specified 1`] = `
     type="strikethrough"
   >
     <span
-      className="css-1vlogow e1e5cw540"
+      className="css-os5y7u-StyledS e1e5cw540"
       type="strikethrough"
     >
       Don’t read this!
     </span>
-  </Styled(span)>
+  </StyledS>
 </S>
 `;
 
@@ -95,11 +95,11 @@ exports[`<S /> should underline text when specified 2`] = `
     type="underline"
   >
     <span
-      className="css-xt7dpi e1e5cw540"
+      className="css-1yijsn5-StyledS e1e5cw540"
       type="underline"
     >
       This text is underlined!
     </span>
-  </Styled(span)>
+  </StyledS>
 </S>
 `;

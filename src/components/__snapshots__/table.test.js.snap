@@ -12,7 +12,7 @@ exports[`<Table /> should render correctly 1`] = `
     }
   >
     <table
-      className="css-0 ek2hskj0"
+      className="css-acfgbr-StyledTable ek2hskj0"
     >
       <tbody>
         <tr>
@@ -22,6 +22,6 @@ exports[`<Table /> should render correctly 1`] = `
         </tr>
       </tbody>
     </table>
-  </Styled(table)>
+  </StyledTable>
 </Table>
 `;

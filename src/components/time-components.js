@@ -1,5 +1,5 @@
-import { keyframes } from 'emotion';
-import styled from 'react-emotion';
+import { keyframes } from '@emotion/core';
+import styled from '@emotion/styled';
 
 export const Clock = styled.h2`
   position: relative;
@@ -62,10 +62,9 @@ export const TSingleButton = styled.button`
       return '#e23d3d';
     } else if (props.start) {
       return '#42a53c';
-    } else {
-      return '#darkgrey';
     }
-  }};
+    return '#darkgrey';
+  }}};
 
   &:focus {
     outline: 0px;

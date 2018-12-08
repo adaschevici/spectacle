@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { getStyles } from '../utils/base';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 
-const format = str => {
-  return str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-};
+const format = str => str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 const StyledCode = styled.code(props => props.styles);
 

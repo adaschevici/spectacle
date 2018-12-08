@@ -1,11 +1,8 @@
-/*eslint max-statements:0,complexity:0,no-invalid-this:0,consistent-return:0*/
+/* eslint max-statements:0,complexity:0,no-invalid-this:0,consistent-return:0*/
 import checkWarnings from './warn';
 // eslint-disable-next-line max-params
-export const buildStyles = (transforms, props, context, styles = {}) => {
-  return transforms.reduce((av, cv) => {
-    return { ...av, ...cv(props, context, av) };
-  }, styles);
-};
+export const buildStyles = (transforms, props, context, styles = {}) =>
+  transforms.reduce((av, cv) => ({ ...av, ...cv(props, context, av) }), styles);
 
 const applyMargin = ({ margin }) => (margin ? { margin } : undefined);
 const applyPadding = ({ padding }) => (padding ? { padding } : undefined);
@@ -82,9 +79,9 @@ export const transformBgSize = ({ bgImage, bgSize }) => {
   }
 };
 
-export const transformBgImageByGradient = ({ bgGradient }) => {
-  return { backgroundImage: bgGradient };
-};
+export const transformBgImageByGradient = ({ bgGradient }) => ({
+  backgroundImage: bgGradient
+});
 
 export const transformBgPosition = ({ bgImage, bgPosition }) => {
   if (bgImage) {
@@ -96,9 +93,9 @@ export const transformBgRepeat = ({ bgImage, bgRepeat }) => {
     return { backgroundRepeat: bgRepeat };
   }
 };
-export const transformBgImageByBgStyle = ({ bgImageStyle }) => {
-  return { backgroundImage: bgImageStyle };
-};
+export const transformBgImageByBgStyle = ({ bgImageStyle }) => ({
+  backgroundImage: bgImageStyle
+});
 export const transformBgImage = ({
   bgImage,
   bgDarken,
@@ -126,9 +123,8 @@ export const transformBgImage = ({
     return {
       backgroundImage: `linear-gradient( rgba(255, 255, 255, ${bgLighten}), rgba(255, 255, 255, ${bgLighten}) ), url(${bgImage})`
     };
-  } else {
-    return { backgroundImage: `url(${bgImage})` };
   }
+  return { backgroundImage: `url(${bgImage})` };
 };
 
 const textTransforms = [
