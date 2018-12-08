@@ -238,7 +238,7 @@ exports[`<Presenter /> should render timer when set in params. 1`] = `
                           start={true}
                         >
                           <button
-                            className="css-1l6dw8e-TSingleButton e1x29nnk3"
+                            className="css-1ci6lkf-TSingleButton e1x29nnk3"
                             onClick={[Function]}
                             start={true}
                           >
