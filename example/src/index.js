@@ -129,7 +129,7 @@ export default class Presentation extends Component {
         >
           <CodePane
             lang="jsx"
-            source={require('raw-loader!../assets/deck.example')}
+            source={require('raw-loader!../assets/deck.example')} // eslint-disable-line import/no-unresolved
             margin="20px auto"
             overflow="overflow"
           />
